@@ -48,7 +48,7 @@ public class SupplierFullModel extends AbstractTableModel{
          Object obj = null;
         switch(columnIndex){
             case 0: obj = sup.getSupCode();break;
-            case 1: obj = sup.getSupCode();break;
+            case 1: obj = sup.getSupName();break;
             case 2: obj = sup.getAddress();break;
             case 3: obj = sup.isColloborating();break;
         }
